@@ -1,0 +1,32 @@
+.wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px; /* Adds space between the items */
+ }
+ 
+ .wrapper > div {
+   flex: 1; /* Ensures all divs take equal space */
+   min-width: 200px; /* Ensures the divs don't get too small */
+   padding: 20px;
+   border: 1px solid #ccc;
+   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+   border-radius: 5px;
+   background-color: #f9f9f9;
+ }
+ 
+ h2, h4 {
+   margin: 0;
+   padding: 10px 0;
+ }
+ 
+ form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px; /* Adds space between the inputs */
+ }
+ 
+ input {
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }

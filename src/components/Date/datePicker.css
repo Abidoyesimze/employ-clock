@@ -1,0 +1,11 @@
+.date{
+    margin-left: 350px;
+}
+.nextBtn{
+    background: green;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 3rem;
+    padding: 0.60rem 3rem;
+    outline: none;
+}

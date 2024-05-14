@@ -1,0 +1,89 @@
+#contactPage{
+    min-height: calc(200vh - 4rem);
+    width: 200vw;
+    max-width: 100rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+}
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 350px;
+}
+.contactDesc{
+    padding: 1rem;
+    font-size: medium;
+    font-weight: 300;
+    align-items: center;
+    margin-left: 250px;
+}
+.contactForm{
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    max-width: 80rem;
+}
+.submitBtn{
+    background: green;
+    border: none;
+    border-radius: 0.5rem;
+    margin: 3rem;
+    padding: 0.75rem 3.5rem;
+    
+}
+.introContent{
+    align-items: center;
+    justify-content: middle;
+    margin-left: 350px;
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.name, .email, .msg{
+    font-size: medium;
+    width: 100%;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    max-width: 40rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    border-radius: 0.5rem;
+    background: grey;
+
+}
+
+.desktopMenuListItems{
+    width: 50%;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    top:0;
+    margin-left: 400px;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: 3;
+
+ }
+
+ .desktopMenuListItem {
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-right: 100px;
+    
+ }
+ .desktopMenuListItem:hover{
+    color: green;
+    border-bottom: 2px solid green;
+ }
+ 
+
